@@ -1,0 +1,1563 @@
+
+@font-face {
+    font-family: 'Akzidenz-Grotesk BQ';
+    src: url('../fonts/AkzidenzGroteskBQ-XBdCndItAlt.woff2') format('woff2');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ITC Clearface Std';
+    src: url('../fonts/ClearfaceStd-Regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Code Pro';
+    src: url('../fonts/Code-Pro-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('../fonts/GalanoGrotesqueAlt-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Heavy';
+    src: url('../fonts/GalanoGrotesque-Heavy.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque bold';
+    src: url('../fonts/GalanoGrotesque-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque';
+    src: url('../fonts/GalanoGrotesque-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galano Grotesque Alt';
+    src: url('../fonts/GalanoGrotesqueAlt-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.whiteColor{
+    color: #ffffff;
+}
+
+.blackColor{
+    color: #4e4d4d;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+input[type=text]{
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: -10px 12px 10px 0px rgba(0,0,0,0.1);
+}
+
+.inputsWidth{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.inputRound{
+    width: 70%;
+}    
+
+label{
+    font-family: Galano Grotesque;
+}
+
+.bg2{
+    background: #dfe0df;
+}
+
+
+h2{
+    font-family: Code Pro;
+    font-size: 31px;
+    text-align: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #ca122a;
+    background: linear-gradient(#ca122a, #a71a2d) no-repeat;
+    min-height: 100vh;
+    font-family: Galano Grotesque Alt;
+    text-align: center;
+    background-size: cover;
+} 
+
+.layout2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.introbg{
+    background-image: url('../img/png/fondoBG.jpg');
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+.sectionUp{
+    height: 36vh;
+    width: 100%;
+    background-color: #ca122a;
+    background: linear-gradient(#ca122a, #a71a2d) no-repeat;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: relative;
+    display: flex;  
+    flex-direction: column;
+}
+
+.bgCuopones{
+    background-image: url('../img/png/bgpro.png');
+    height: 32vh;
+    filter:brightness();
+    width: 100%;
+    background-size: cover;
+}
+
+/* botones inicio*/
+
+.btnFirst{
+    padding: 10px 10px 6px;
+    border-radius: 6px;
+    border: none;
+}
+
+.btnOrange{
+    background-color: #ee7f18;
+    background: linear-gradient(#f2a115, #ee7f18) no-repeat;
+    color: white;
+}
+
+.btnTextA{
+    font-family: Code Pro;
+    letter-spacing: .5px;
+}
+
+.btnUser{
+    color: #a71a2d;
+    padding: 1px 2px;
+    font-size: 14px;
+    border: none;
+    margin-top: 6px;
+    border-radius: 3px;
+}
+
+/* botones fin */
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    max-width: 100%;
+    background: #ffffff;
+    border-radius: 9px;
+    margin: 20px 15px;
+    height: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* logos inicio*/
+.logoOYP{
+    max-width: 280px;
+    margin-bottom: 9%;
+}
+
+.logoPres1{
+    width: 30%;
+    display: block;
+}
+
+.logoPres2{
+    width: 100px;
+    margin-top: 23%;
+    margin-bottom: 1%;
+}
+
+.logoPres3{
+    width: 200px;
+}
+
+.logoOma1{
+    width: 84px;
+}
+
+.logoOma2{
+    width: 110px;
+}
+
+.logoOma3{
+    width: 170px;
+}
+
+/* logos fin */
+
+.cuponAdictos1{
+    max-width: 300px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.ahorrar{
+    max-width: 280px;
+}
+
+.setBotton{
+    background-color: #ca122a;
+    background: linear-gradient(#ca122a, #a71a2d) no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.setBottonB{
+    height: 26vh;
+    background-color: #ca122a;
+    background: linear-gradient(#ca122a, #a71a2d) no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+}
+
+.setBottonc{
+    background-color: #dfe0df;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    padding-bottom: 4vh;
+}
+
+/* header inicio */
+  header{
+    /* height: 70px;
+    background: #ee7f18;
+    position: relative;
+    z-index: 5; */
+  }
+/* header fin */
+
+/* login - inicio*/
+
+.loginSection h2{
+    margin-bottom: 0;
+}
+
+.loginSection p{
+    margin-top: 4px;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.loginSection p span{
+ font-size: 24px;
+ font-family: Galano Grotesque bold;
+} 
+
+.loginSection label{
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+.loginSection .btnTextA {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 28px;
+}
+
+.loginSection .enlace{
+    margin-top: 11px;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.loginSection .loginIn1{
+    margin-bottom: 44px;
+}
+
+/* login - fin */
+
+
+/* register - inicio*/
+
+.setIuputs {
+    width: 80%;
+    margin: auto;
+}
+
+.nuevoInput{
+    background: none;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #ffffff !important;
+    color: rgb(61, 42, 42);
+    padding: 5px 10px !important;
+    margin-bottom: 15px;
+}
+
+.btnRegister{
+    margin: 28px 0 15px;
+}
+
+.terminos{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 0 20px;
+}
+
+.terminos div{
+    display: flex;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.terminos div input{
+    margin-right: 5px;
+}
+
+.block-imput{
+    display: flex;
+    flex-direction: column;
+}
+
+.block-imput label{
+align-self: flex-start;
+}
+
+/* register - fin */
+
+
+/* resetpass - inicio*/
+
+.btnReset{
+    margin-top: 28px;
+}
+
+/* resetpass - fin */
+
+
+/* changepass - inicio*/
+.ch-input-margin {
+    margin: 20px 0 28px;
+}
+/* changepass - fin */
+
+
+/* Home - inico */
+
+.home{
+    padding-top: 110px;
+}
+
+.home .title{
+    font-family: Code Pro;
+    font-size: 18px;
+}
+
+.homeMenuIzq{
+    visibility: hidden;
+}
+
+.cuponAdictos{
+    background: #960b1d;
+    border: 1px dashed #dfe0df;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 9px 2px 2px;
+    width: 320px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 16vh;
+    right: 0;
+    left: 0;
+}
+
+.cuponAdictos h2{
+    font-size: 27.5px;
+    margin: 0;
+    line-height: 1;
+}
+
+.cuponAdictos h2 span{
+    color: #b93748;
+}
+
+.home .tyc{
+    font-size: 12px;
+}
+
+.cardSlider {
+    margin: 0 2%;
+    border-radius: 12px;
+    background: #fff;
+    position: absolute;
+    z-index: 5;
+    bottom: -100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px 4px 3px;
+}
+
+.TerminosLink{
+    text-decoration: none;
+    color: #4e4d4d;
+    padding-bottom: 16px;
+}
+
+.TerminosLink:hover{
+    text-decoration: none;
+    color: #960b1d;
+}
+
+/* Home - fin */
+
+/* Info - Terminos */
+.infoTerminos{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ca122a;
+    background: linear-gradient(#ca122a, #a71a2d) no-repeat;
+    z-index: 30;
+    padding: 10%;
+    height: 100vh;
+    display: none;
+}
+
+.infoTerminos.activo{
+    display: block;
+}
+
+.infoTerminos img{
+    margin-bottom: 2%;
+    width: 244px;
+}
+
+.infoTerminos h3, 
+.infoTerminos p {
+    color: #fff;
+}
+
+.infoTerminos h3{
+    font-family: 'Code Pro';
+    letter-spacing: 1.1px;
+}
+
+.infoTerminos p {
+    color: #fff;
+    text-align: justify;
+    font-size: 13px;
+}
+
+.infoTerminos .btnPosition{
+    font-family: 'Code Pro';
+    color: #333;
+    padding: 8px 20px 4px;
+    margin-left: 64%;
+}
+
+/* Info - Terminos*/
+
+/* cupones */
+.cuponLogo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 26% auto;
+}
+
+.contentBotton{
+    height: 60vh;
+    padding: 1% 0 23%;
+    margin-top: 10%;
+}
+/*  */
+
+/*  */
+
+.cuponLogo2{
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+margin: 10% auto 34%;
+}
+
+.cuponLogo3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10% auto 35%;
+    }
+
+.detalleCupon h2,
+.detalleCupon p{
+    margin: 0;
+}
+
+.detalleCupon p{
+    font-size: 13px;
+}
+
+.detContent{
+    padding-bottom: 20px;
+    padding-top: 8%;
+}
+
+.secImgDetalle{
+    position: absolute;
+    bottom: -30px;
+}
+
+.secImgDetalle img{
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    width: 100%;
+}
+
+.vigencia{
+    border-top: 1px dashed #fff;
+    border-bottom: 1px dashed #fff;
+    padding: 20px 0;
+}
+
+.detTyC{
+    font-size: 11px;
+}
+
+.detTyC > h4{
+    font-size:17px;
+    margin: 0;
+    margin-top: 6vh;
+    font-family: 'Code Pro';
+    letter-spacing: 1px;
+}
+
+.btnDownload{
+    font-family: Code Pro;
+    padding: 9px 8px 7px;
+    border-radius: 6px;
+    border: 1px solid #f2a115;
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+
+/*  */
+
+/* cupon - inicio*/
+
+.areaCupon{
+    padding-bottom: 30px;
+}
+
+.secCupon{
+    border: 1px dashed #ffffff;
+    margin: 20px auto -4px;
+    position: relative;
+    border-radius: 4px;
+    padding: 14px 14px 32px;
+    max-width: 480px
+    ;
+}
+
+.secCupon img{
+    width: 100%;
+}
+
+.cupon{
+    background-color: white;
+    border-radius: 12px;
+}
+
+.cuponCode{
+    background: #e3dfdf;
+    width: 70%;
+    margin: 0 auto;
+    border: #960b1d 2px dashed;
+    color: #636363;
+    margin-top: 10px;
+    padding-top: 8px;
+}
+
+.cuponCode h3,
+.cuponCode p{
+    margin:0
+}
+
+.cuponCode h3{
+    font-family: 'Code Pro';
+    font-size: 27px;   
+}
+
+.cuponTerminos{
+    padding: 0 20px 18px;
+}
+
+.cuponTerminos h3{
+    font-family: 'Code Pro';
+    font-size: 17px;
+    margin:10px 0 5px;
+}
+
+.cuponTerminos p{
+    font-size: 10px;
+    margin: 0;
+}
+
+.btnCupon{
+    position: relative;
+    top: -13px;
+    font-family: Code Pro;
+    padding: 3px 8px;
+    border-radius: 6px;
+    border: 1px solid #f2a115;
+    letter-spacing: .5px;
+}
+
+.btnCupon img{
+    width: 50px;
+}
+
+/* cupon - fin*/
+
+
+/* user */
+
+.contetUser{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 36vh;
+    margin-top: 60px;
+}
+
+.UserData{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.UserData .name{
+    font-family: 'Code Pro';
+    font-size: 26px;
+}
+
+.UserData p{
+    margin: 0;
+    font-size: 15px;
+}
+
+.avatar{
+    background-image: url(../img/SVG/user.svg);
+    width: 120px;
+    height:120px;
+    border-radius: 100%;
+}
+
+.secRedimidos p{
+    font-family: 'Code Pro';
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.cupones,
+.cuponesRedi{
+    display: flex;
+    justify-content: center;
+    border: 1px dashed #ffffff;
+    margin: 6px 20px;
+}
+
+.cuponesRedi{
+    border: none;
+}
+
+.cupones:first-child{
+    margin-top: 59px;
+}
+
+.cupones img,
+.cuponesRedi img{
+    width: 97%;
+    padding: 5px 0;
+}
+
+/*  */
+
+.enlacesRegistro{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 14px;
+    font-family: Galano Grotesque;
+}
+
+.enlacesRegistro span{
+    font-weight: 600;
+    font-family: Galano Grotesque Alt;
+}
+
+
+
+/* slider Inicio*/
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 14px;
+    position: absolute;
+    top: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  .text span{
+    font-size: 12px;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #fff;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+/* sider Fin*/
+.secDot{
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    margin-top: -20px;
+    bottom: 5px;
+}
+
+
+/* header */
+.headerApp {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    z-index: 30;
+    background: #ca122aa6;
+}
+
+.headerApp button {
+    border: none;
+    background: none;
+    margin-top: 10px;
+}
+
+.headerAvatar{
+    width: 60px;
+    margin-top: 20px;
+    border:#fff solid 4px;
+    border-radius: 50%;
+}
+
+.headerApp button  img{
+width: 30px;
+}
+
+.headerCupon{
+    width: 220px;
+}
+
+.userIzq{
+    position: relative;
+    left: -21px;
+    width: 21%;
+}
+.userIzq img{
+    width: 60px;
+    margin-top: 5px;
+}
+
+.bgcolorNone{
+    background-color: transparent;
+}
+
+/*Media queries*/
+@media (max-width: 412px){
+    .cardSlider{
+        margin: 0 2% 10px;
+    }
+
+    .userIzq {
+        width: 15%;
+    }
+
+    .slideAdictos{
+        width: 240px;
+    }
+
+    .logoOYP{
+        margin-top: 20%;
+    }
+
+    .inputRound {
+        width: 300px;
+    }
+
+}
+
+@media (min-width: 413px) and (max-width: 480px) {
+
+
+.setIuputs {
+    width: 100%;
+    margin: 0;
+}
+
+.registerSection{
+    width: 70%;
+}
+
+.userIzq {
+    width: 77px;
+}
+
+.cuponAdictos{
+position: absolute;
+margin-bottom: 10px;
+}
+
+.cardSlider {
+    border-radius: 17px;
+    margin: 0 2% 40px;
+}    
+
+.slideAdictos{
+    width: 300px;
+}
+
+.home {
+    padding-top: 18%;
+}
+
+
+.cuponesslide{
+    margin: 0 2%;
+}
+
+.cuponesPossition{
+    margin: 0 2% -3px;
+}
+
+
+
+.cuponLogo {
+    margin: 28% auto;
+}
+
+.logoOYP{
+    margin-top: 20%;
+}
+
+.inputRound {
+    width: 380px;
+}
+
+
+}
+
+@media (min-width: 481px) and (max-width: 530px) {
+    .userIzq {
+        width: 56px;
+    }
+    .cardSlider {
+        border-radius: 20px;
+        margin: 0 2% 39px;
+    }   
+    .cuponAdictos{
+    margin-bottom:45px;
+    } 
+    .text {
+        color: #f2f2f2;
+        font-size: 25px;
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        text-align: center;
+        margin-top: -15px;
+        line-height: .8;
+    }
+    .secDot {
+        bottom: 10px;
+    }
+    .dot{
+        height: 12px;
+        width: 12px;
+    }
+
+    .home {
+        padding-top: 78px;
+    }
+
+    .home .title {
+        font-family: Code Pro;
+        font-size: 22px;
+    }
+
+    .slideAdictos{
+        width: 325px;
+    }
+    
+    .cuponesPossition{
+        margin: 0 2% -3px;
+    }
+
+    .secImgDetalle {
+        position: absolute;
+        bottom: -56px;
+    }
+
+    .cuponLogo2 {
+        margin: 10% auto 32%;
+    }
+
+    .cupon {
+        background-color: white;
+        border-radius: 18px;
+    }
+
+    .logoOYP{
+        margin-top: 20%;
+    }
+
+    .inputRound {
+        width: 400px;
+    }
+
+
+}
+
+@media (min-width: 531px) and (max-width: 640px) {
+
+    .slideAdictos{
+        width: 325px;
+    }
+
+    .cardSlider {
+        max-width: 510px;
+    }   
+
+    .sectionUp {
+        align-items: center;
+    }
+
+    .text{
+        margin-top: 20px;
+    }
+    .contentBotton {
+        height: 60vh;
+        padding: 1% 0 20%;
+        margin-top: 10%;
+    }
+
+    .userIzq {
+        width: 18%;
+    }
+
+    .secImgDetalle {
+        position: absolute;
+        bottom: -86px;
+    }
+
+    .cuponLogo2,
+    .cuponLogo3 {
+        margin: 10% auto 26%;
+        width: 140px;
+    }
+
+    .detContent {
+        padding-bottom: 20px;
+        padding-top: 24%;
+    }
+
+    .secImgDetalle {
+        position: absolute;
+        bottom: -146px;
+    }
+
+    .cupon {
+        background-color: white;
+        border-radius: 18px;
+    }
+
+    .logoCupon .logoPres2{
+        margin-top: 14%;
+    }
+
+    .logoOYP{
+        margin-top: 20%;
+    }
+
+    .inputRound {
+        width: 400px;
+    }
+
+
+}
+
+
+@media (min-width: 641px) and (max-width: 768px) {
+
+    .slideAdictos{
+        width: 325px;
+    }
+
+    .cardSlider {
+        max-width: 510px;
+    }   
+
+    .sectionUp {
+        align-items: center;
+    }
+
+    .text{
+        margin-top: 20px;
+    }
+
+    .contentBotton {
+        height: 60vh;
+        padding: 1% 0 35%;
+        margin-top: 10%;
+    }
+
+    .cuponLogo {
+        margin: 0 auto 154px;
+        width: 130px;
+    }
+
+    .cupones{
+        max-width: 645px;
+        margin: 0 auto;
+    }
+
+    .userIzq {
+        width: 12%;
+    }
+
+    .cuponLogo2,
+    .cuponLogo3 {
+        margin: 10% auto 26%;
+        width: 140px;
+    }
+
+    .detContent {
+        padding-bottom: 20px;
+        padding-top: 24%;
+    }
+
+    .secImgDetalle {
+        position: absolute;
+        bottom: -146px;
+    }
+
+
+    .logoCupon .logoPres2{
+        margin-top: 14%;
+    }
+
+    .cupon {
+        background-color: white;
+        border-radius: 18px;
+    }
+
+    .logoOYP{
+        margin-top: 20%;
+    }
+
+    .inputRound {
+        width: 500px;
+    }
+
+    .setIuputs{
+        width: 400px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .slideAdictos{
+        width: 325px;
+    }
+
+    .cardSlider {
+        max-width: 510px;
+    }   
+
+    .sectionUp {
+        align-items: center;
+    }
+
+    .text{
+        margin-top: 20px;
+    }
+
+    .card{
+        max-width: 1024px;
+        margin: 30px auto;
+    }
+    
+    .cuponLogo {
+        margin: 0 auto 154px;
+        width: 130px;
+    }
+
+    .cupones{
+        max-width: 645px;
+        margin: 0 auto;
+    }
+
+    .contentBotton {
+        height: 60vh;
+        padding: 1% 0 35%;
+        margin-top: 10%;
+    }
+
+    .cuponesPossition{
+        bottom: -119px;
+    }
+
+    .userIzq {
+        width: 12%;
+    }
+
+    .cuponLogo2,
+    .cuponLogo3 {
+        margin: 7% auto 16%;
+        width: 140px;
+    }
+
+    .detContent {
+        padding-bottom: 20px;
+        padding-top: 24%;
+    }
+
+    .secImgDetalle {
+        position: absolute;
+        bottom: -196px;
+    }
+
+    .secImgDetalle img{
+        height: 320px;
+    }
+
+
+    .logoCupon .logoPres2{
+        margin-top: 14%;
+    }
+
+    .cupon {
+        background-color: white;
+        border-radius: 18px;
+    }
+
+    .inputRound {
+        width: 500px;
+    }
+
+    .logoOYP{
+        margin-top: 20%;
+    }
+
+    .setIuputs{
+        width: 500px;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .slideAdictos{
+        width: 325px;
+    }
+
+    .cardSlider {
+        max-width: 510px;
+    }   
+
+    .sectionUp {
+        align-items: center;
+    }
+
+    .text{
+        margin-top: 20px;
+    }
+    .card{
+        max-width: 1024px;
+        margin: 30px auto;
+    }
+
+    .cupones{
+        max-width: 645px;
+        margin: 0 auto;
+    }
+
+    .cuponesPossition{
+        bottom: -145px;
+    }
+    
+    .cuponLogo {
+        margin: 0 auto 10%;
+        width: 150px;
+    }
+    .userIzq {
+        width: 12%;
+    }
+
+    .cuponLogo2,
+    .cuponLogo3 {
+        margin: 7% auto 13%;
+        width: 140px;
+    }
+
+    .detContent {
+        padding-bottom: 20px;
+        padding-top: 18%;
+    }
+
+    .secImgDetalle {
+        position: absolute;
+        bottom: -196px;
+    }
+
+    .secImgDetalle img{
+        height: 320px;
+    }
+
+    .logoCupon .logoPres2{
+        margin-top: 10%;
+    }
+
+    .cupon {
+        background-color: white;
+        border-radius: 18px;
+    }
+
+    .logoOYP {
+        margin-bottom: 5%;
+    }
+
+    .inputRound {
+        width: 500px;
+    }
+
+    .logoOYP{
+        margin-top: 20%;
+    }
+
+    .setIuputs{
+        width: 500px;
+    }
+
+}
+
+@media (min-width: 1281px) and (max-width: 1536px) {
+    .slideAdictos{
+        width: 325px;
+    }
+
+    .cardSlider {
+        max-width: 510px;
+    }   
+
+    .sectionUp {
+        align-items: center;
+    }
+
+    .text{
+        margin-top: 20px;
+    }
+    .card{
+        max-width: 1024px;
+        margin: 30px auto;
+    }
+
+    .cupones{
+        max-width: 645px;
+        margin: 0 auto;
+    }
+
+    .cuponesPossition{
+        bottom: -145px;
+    }
+    
+    .cuponLogo {
+        margin: 0 auto 8%;
+        width: 150px;
+    }
+    .userIzq {
+        width: 8%;
+    }
+
+    .cuponLogo2,
+    .cuponLogo3 {
+        margin: 7% auto 13%;
+        width: 140px;
+    }
+
+    .detContent {
+        padding-bottom: 20px;
+        padding-top: 18%;
+    }
+
+    .secImgDetalle {
+        position: absolute;
+        bottom: -196px;
+    }
+
+    .secImgDetalle img{
+        height: 320px;
+    }
+    
+
+    .logoCupon .logoPres2{
+        margin-top: 9%;
+    }
+
+    .cupon {
+        background-color: white;
+        border-radius: 18px;
+    }
+
+    .logoOYP {
+        margin-bottom: 4%;
+    }
+
+    .inputRound {
+        width: 500px;
+    }
+
+    .logoOYP{
+        margin-top: 16%;
+    }
+
+    .setIuputs{
+        width: 500px;
+    }
+}
+
+@media (min-width: 1537px) {
+    .slideAdictos{
+        width: 325px;
+    }
+
+    .cardSlider {
+        max-width: 510px;
+    }   
+
+    .sectionUp {
+        align-items: center;
+    }
+
+    .text{
+        margin-top: 20px;
+    }
+    .card{
+        max-width: 1024px;
+        margin: 30px auto;
+    }
+
+    .cupones{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .cupones{
+        max-width: 645px;
+        margin: 0 auto;
+    }
+
+    .cuponesPossition{
+        bottom: -200px;
+    }
+    
+    .cuponLogo {
+        margin: 0 auto 5%;
+        width: 180px;
+    }
+    .userIzq {
+        width: 6%;
+    }
+
+    .cuponLogo2,
+    .cuponLogo3 {
+        margin: 7% auto 16%;
+        width: 140px;
+    }
+
+    .detContent {
+        padding-bottom: 20px;
+        padding-top: 24%;
+    }
+
+    .secImgDetalle {
+        position: absolute;
+        bottom: -196px;
+    }
+
+    .secImgDetalle img{
+        height: 320px;
+    }
+
+    .cuponLogo2,
+    .cuponLogo3 {
+        margin: 7% auto 9%;
+        width: 140px;
+    }
+
+    .detContent {
+        padding-bottom: 20px;
+        padding-top: 12%;
+    }
+
+    .secImgDetalle {
+        position: absolute;
+        bottom: -196px;
+    }
+
+    .secImgDetalle img{
+        height: 320px;
+    }
+
+
+    .logoCupon .logoPres2{
+        margin-top: 6%;
+    }
+
+    .cupon {
+        background-color: white;
+        border-radius: 18px;
+    }
+
+    .logoOYP {
+        margin-bottom: 4%;
+    }
+
+    .inputRound {
+        width: 500px;
+    }
+
+    .logoOYP{
+        margin-top: 6%;
+    }
+
+    .setIuputs{
+        width: 500px;
+    }
+
+}
