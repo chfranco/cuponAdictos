@@ -143,6 +143,272 @@ body{
     background-image: url('../img/png/fondoBG.jpg');
 }
 
+/* inicio lines art */
+.bgIntroUp{
+    position: absolute;
+    right: 22px;
+    top: -4px;
+    width: 30px;
+}
+
+.bgIntroDown{
+    width: 260px;
+    position: absolute;
+    bottom: 1px;
+    left: -6px;
+}
+
+.bgIntroUp{
+    position: absolute;
+    bottom: 1px;
+    left: -6px;
+}
+
+.loginLine1{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    top: 1px;
+    left: -6px;
+}
+
+.loginLine2{
+    height: 240px;
+    position: absolute;
+    top: -18px;
+    margin: 0 auto;
+    display: block;
+    right: 0;
+    left: 0;
+}
+
+.loginLine3{
+    height: 414px;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    display: block;
+    right: 0;
+}
+
+.loginLine4 {
+    height: 171px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    bottom: 225px;
+    width: 43px;
+}
+
+.loginLine5{
+    height: 177px;
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    right: 0;
+    bottom: 0;
+}
+
+.loginLine6{
+    height: 388px;
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    left: 0;
+    bottom: 0;
+}
+
+.resetPassLine1{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    top: 1px;
+    left: -6px;
+}
+
+.resetPassLine2{
+    height: 240px;
+    position: absolute;
+    top: -18px;
+    margin: 0 auto;
+    display: block;
+    right: 0;
+    left: 0;
+}
+
+.resetPassLine3{
+    height: 414px;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    display: block;
+    right: 0;
+}
+
+.resetPassLine4 {
+    height: 232px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+.resetPassLine5{
+    height: 388px;
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    left: 0;
+    bottom: 0;
+}
+
+.changeLine1{
+    width: 40px;
+    height: 78px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+.changeLine2{
+    height: 40px;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    display: block;
+    right: 0;
+}
+
+.changeLine3{
+    height: 214px;
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    right: 0;
+    bottom: 256px;
+}
+
+.changeLine4 {
+    height: 232px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.changeLine5{
+    height: 388px;
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    left: 0;
+    bottom: 0;
+}
+
+.regisLine1{
+    height: 108px;
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+.regisLine2{
+    height: 228px;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    display: block;
+    left: 0;
+}
+
+.regisLine3{
+    height: 70px;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+}
+
+.regisLine4 {
+    height: 232px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.regisLine5{
+    height: 144px;
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.homeLine1{
+    height: 108px;
+    position: absolute;
+    top: 1px;
+    right: 0;
+}
+
+.homeLine2 {
+    height: 278px;
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    right: 0;
+    bottom: 120px;
+}
+
+.homeLine3{
+    height: 70px;
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+}
+
+.generaLine1 {
+    height: 119px;
+    position: absolute;
+    right: 0px;
+    top: 70px;
+}
+
+.generaLine2{
+    height: 228px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.generaLine3{
+    height: 70px;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+}
+
+.userLine1{
+    position: absolute;
+    top: 1px;
+    right: 0;
+    width: 194px;
+}
+
+.userLine2{
+    height: 118px;
+    position: absolute;
+    top: 267px;
+    margin: 0 auto;
+    display: block;
+    left: 0;
+}
+
+/* fin lines art */
+
 .wrap{
     display: flex;
     flex-direction: column;
@@ -255,6 +521,11 @@ body{
 
 /* logos fin */
 
+/* bgCOrtes inicio */
+
+
+/* bgCOrtes inicio */
+
 .cuponAdictos1{
     max-width: 300px;
     padding-top: 30px;
@@ -287,6 +558,8 @@ body{
     border-top-right-radius: 10px;
     text-align: center;
     padding-bottom: 4vh;
+    z-index: 1;
+    position: relative;
 }
 
 /* header inicio */
@@ -393,10 +666,15 @@ align-self: flex-start;
 
 
 /* resetpass - inicio*/
+.resetPass{
+    position: relative;
+    z-index: 1;
+}
 
 .btnReset{
     margin-top: 28px;
 }
+
 
 /* resetpass - fin */
 
@@ -404,6 +682,11 @@ align-self: flex-start;
 /* changepass - inicio*/
 .ch-input-margin {
     margin: 20px 0 28px;
+}
+
+.changepass{
+    position: relative;
+    z-index: 2;
 }
 /* changepass - fin */
 
@@ -968,9 +1251,8 @@ margin-bottom: 10px;
 }
 
 .inputRound {
-    width: 380px;
+    width: 305px;
 }
-
 
 }
 
