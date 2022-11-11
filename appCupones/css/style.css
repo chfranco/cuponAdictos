@@ -73,7 +73,7 @@
 
 
 .whiteColor{
-    color: #ffffff;
+    color: #ffffff!important;
 }
 
 .blackColor{
@@ -435,6 +435,7 @@ body{
     filter:brightness();
     width: 100%;
     background-size: cover;
+    margin-bottom: 8vh;
 }
 
 /* botones inicio*/
@@ -700,7 +701,7 @@ body{
     border-radius: 0 !important;
     border-bottom: 1px solid #ffffff !important;
     color: rgb(61, 42, 42);
-    padding: 5px 10px !important;
+    padding: 5px 10px 5px 0 !important;
     margin-bottom: 15px;
 }
 
@@ -760,9 +761,9 @@ align-self: flex-start;
     margin: 20px 0 28px;
 }
 
-.changepass{
+.changePass{
     position: relative;
-    z-index: 2;
+    z-index: 1;
 }
 /* changepass - fin */
 
@@ -890,7 +891,6 @@ align-self: flex-start;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: 10% auto 40%;
 }
 
 /* .contentBotton{
@@ -907,7 +907,7 @@ position: absolute;
 bottom: 0;
 left: 0;
 right: 0;
-margin: 10% auto 34%;
+margin: 10% auto 30%;
 }
 
 .cuponLogo3{
@@ -928,13 +928,14 @@ margin: 10% auto 34%;
 }
 
 .detContent{
+    margin-top: 20px;
     padding-bottom: 20px;
     padding-top: 8%;
 }
 
 .secImgDetalle{
     position: absolute;
-    bottom: -30px;
+    bottom: -45px;
 }
 
 .secImgDetalle img{
@@ -974,7 +975,8 @@ margin: 10% auto 34%;
 /* cupon - inicio*/
 
 .areaCupon{
-    padding-bottom: 30px;
+    padding: 30px;
+    padding-top: 0;
 }
 
 .secCupon{
@@ -1103,7 +1105,7 @@ margin: 10% auto 34%;
 }
 
 .cupones:first-child{
-    margin-top: 30%;
+    margin-top: 11%;
 }
 
 .cupones img,
@@ -1198,7 +1200,6 @@ margin: 10% auto 34%;
     bottom: 5px;
 }
 
-
 /* header */
 .headerApp {
     position: fixed;
@@ -1249,6 +1250,14 @@ width: 30px;
     background-color: transparent;
 }
 
+.secTerminos{
+    margin: 20px;
+}
+
+.secTerminos{
+    margin: 20px;
+}
+
 /*Media queries*/
 @media (max-width: 412px){
     .cardSlider{
@@ -1271,6 +1280,20 @@ width: 30px;
         width: 300px;
     }
 
+    .cuponLogo {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 30%;
+        margin: 0 auto;
+    }
+
+    .secterminos{
+        height: 52vh;
+        overflow-y: scroll;
+    }
+    
 }
 
 @media (min-width: 413px) and (max-width: 480px) {
@@ -1325,6 +1348,10 @@ margin-bottom: 10px;
 
 .inputRound {
     width: 305px;
+}
+
+.cuponLogo2 {
+    margin: 10% auto 38%;
 }
 
 }
@@ -1403,6 +1430,10 @@ margin-bottom: 10px;
         width: 400px;
     }
 
+    .cuponLogo {
+        width: 12vh;
+        margin: 10% auto 28%;
+    }
 
 }
 
@@ -1424,9 +1455,8 @@ margin-bottom: 10px;
         margin-top: 20px;
     }
     .contentBotton {
-        height: 60vh;
         padding: 1% 0 20%;
-        margin-top: 10%;
+        margin-top: 0;
     }
 
     .userIzq {
@@ -1476,7 +1506,16 @@ margin-bottom: 10px;
         margin: 0 auto;
     }
 
+    .cuponLogo {
+        width: 12vh;
+        margin: 10% auto 26%;
+    }
 
+    .logoPres2 {
+        width: 100px;
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
 }
 
 
@@ -1499,9 +1538,7 @@ margin-bottom: 10px;
     }
 
     .contentBotton {
-        height: 60vh;
         padding: 1% 0 35%;
-        margin-top: 10%;
     }
 
     .cuponLogo {
@@ -1561,6 +1598,12 @@ margin-bottom: 10px;
         margin: 0 auto;
     }
 
+    .logoPres2 {
+        width: 100px;
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
@@ -1596,9 +1639,7 @@ margin-bottom: 10px;
     }
 
     .contentBotton {
-        height: 60vh;
         padding: 1% 0 35%;
-        margin-top: 10%;
     }
 
     .cuponesPossition{
@@ -1656,6 +1697,11 @@ margin-bottom: 10px;
         margin: 0 auto;
     }
 
+    .logoPres2 {
+        width: 100px;
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
 
 }
 
@@ -1745,6 +1791,18 @@ margin-bottom: 10px;
     .terminos {
         width: 46%;
         margin: 0 auto;
+    }
+
+    .logoPres2 {
+        width: 100px;
+        margin-top: 6%;
+        margin-bottom: 1%;
+    }
+
+    .logoPres2 {
+        width: 100px;
+        margin-top: 6%;
+        margin-bottom: 1%;
     }
 
 }
@@ -1837,6 +1895,12 @@ margin-bottom: 10px;
     .terminos {
         width: 38%;
         margin: 0 auto;
+    }
+
+    .logoPres2 {
+        width: 100px;
+        margin-top: 6%;
+        margin-bottom: 1%;
     }
 
 }
@@ -1952,6 +2016,12 @@ margin-bottom: 10px;
     .terminos {
         width: 30%;
         margin: 0 auto;
+    }
+
+    .logoPres2 {
+        width: 100px;
+        margin-top: 6%;
+        margin-bottom: 1%;
     }
 
 }
